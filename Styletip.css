@@ -1,0 +1,90 @@
+
+body{
+    background-image: url(../Tip/Images/Logo/Nami_Logo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form > section{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin-left: 20px;
+}
+.form > section > input{
+    background-color: transparent; 
+    color: rgb(49, 68, 29);
+   
+}
+.form > section > input::placeholder{
+    color: rgb(49, 68, 29);
+}
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+    
+}
+
+label {
+    color: rgb(49, 68, 29);
+    font-size: 2em;
+}
+
+.clasification {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+    color: rgb(100, 7, 51);
+}
+
+input[type="radio"]:checked ~ label {
+    color: crimson;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 200px 60px 0px;
+    margin-top: 600px; 
+    color: rgb(49, 68, 29);
+
+}
+.footer > .center-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer > .center-column > .farewell{
+    padding-left: 60px;
+}
+
+.footer > .center-column > .copyright-wrapper{
+    white-space: pre-line;
+    font-size: 10px;
+    margin-top: 30px;
+    padding-left: 60px;
+}

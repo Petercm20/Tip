@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="Styletip.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="scripttip.js"/>
+
+    <script> src="scripttip.js"</script>
+</head>
+<body>        
+    
+    
+    <div class="form"> 
+        <section>
+            <input id="Paid" type="text" placeholder="paid 有料s" tabindex="1" autofocus="">
+
+            <input id="People" type="text" placeholder="people 人" tabindex="2">
+            <div id= "Score" class="ratingStar">
+                <p class="score">  
+                        <input id="radio1" type="radio" name="stars" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="stars" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="stars" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="stars" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="stars" value="1">
+                        <label for="radio5">★</label>
+                </p>  
+            </div>
+            <div class="btn">
+                <button type="submit" id="btn">Submit 参加する</button>
+            </div>  
+
+            <span></span>
+        </section>        
+    </div>
+
+    <div class="footer">
+        <div class="left-column">
+            <div class="contact-hours-wrapper">
+                <div class="phone">
+                    +81345720326
+                </div>
+                <div class="hours">
+                    10 AM - ミッドナイト
+                </div>
+            </div>
+            
+        </div>  
+
+        <div class="center-column">
+            <div class="farewell">
+                <span>
+                    来ていただきありがとうございます！
+                </span>
+            </div>
+            <div class="copyright-wrapper">
+                &copy; 2020 ペドロシラー &#124; All right
+            </div>
+        </div>
+        
+        <div class="right-column"> 
+            <div class="address-wrapper">
+                <span>
+                    17-10 桜丘町 | 1F MCD Bldg., <br>
+                    Shibuya 150-0031, 東京
+                </span>
+            </div>
+        </div>
+    </div> 
+    <script src="scripttip.js" charset="utf-8"></script>  
+</body>
+</html>
